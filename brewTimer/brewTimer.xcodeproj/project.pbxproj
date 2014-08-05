@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCA36663199089A300520FFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA36662199089A300520FFD /* AppDelegate.swift */; };
+		DCA36665199089A300520FFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA36664199089A300520FFD /* ViewController.swift */; };
+		DCA36668199089A300520FFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA36666199089A300520FFD /* Main.storyboard */; };
+		DCA3666A199089A300520FFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCA36669199089A300520FFD /* Images.xcassets */; };
+		DCA36676199089A300520FFD /* brewTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA36675199089A300520FFD /* brewTimerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCA36670199089A300520FFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCA36655199089A300520FFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCA3665C199089A300520FFD;
+			remoteInfo = brewTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCA3665D199089A300520FFD /* brewTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = brewTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA36661199089A300520FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCA36662199089A300520FFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCA36664199089A300520FFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCA36667199089A300520FFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCA36669199089A300520FFD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DCA3666F199089A300520FFD /* brewTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = brewTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA36674199089A300520FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCA36675199089A300520FFD /* brewTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brewTimerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCA3665A199089A300520FFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA3666C199089A300520FFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCA36654199089A300520FFD = {
+			isa = PBXGroup;
+			children = (
+				DCA3665F199089A300520FFD /* brewTimer */,
+				DCA36672199089A300520FFD /* brewTimerTests */,
+				DCA3665E199089A300520FFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCA3665E199089A300520FFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCA3665D199089A300520FFD /* brewTimer.app */,
+				DCA3666F199089A300520FFD /* brewTimerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCA3665F199089A300520FFD /* brewTimer */ = {
+			isa = PBXGroup;
+			children = (
+				DCA36662199089A300520FFD /* AppDelegate.swift */,
+				DCA36664199089A300520FFD /* ViewController.swift */,
+				DCA36666199089A300520FFD /* Main.storyboard */,
+				DCA36669199089A300520FFD /* Images.xcassets */,
+				DCA36660199089A300520FFD /* Supporting Files */,
+			);
+			path = brewTimer;
+			sourceTree = "<group>";
+		};
+		DCA36660199089A300520FFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCA36661199089A300520FFD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCA36672199089A300520FFD /* brewTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCA36675199089A300520FFD /* brewTimerTests.swift */,
+				DCA36673199089A300520FFD /* Supporting Files */,
+			);
+			path = brewTimerTests;
+			sourceTree = "<group>";
+		};
+		DCA36673199089A300520FFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCA36674199089A300520FFD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCA3665C199089A300520FFD /* brewTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCA36679199089A300520FFD /* Build configuration list for PBXNativeTarget "brewTimer" */;
+			buildPhases = (
+				DCA36659199089A300520FFD /* Sources */,
+				DCA3665A199089A300520FFD /* Frameworks */,
+				DCA3665B199089A300520FFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = brewTimer;
+			productName = brewTimer;
+			productReference = DCA3665D199089A300520FFD /* brewTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCA3666E199089A300520FFD /* brewTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCA3667C199089A300520FFD /* Build configuration list for PBXNativeTarget "brewTimerTests" */;
+			buildPhases = (
+				DCA3666B199089A300520FFD /* Sources */,
+				DCA3666C199089A300520FFD /* Frameworks */,
+				DCA3666D199089A300520FFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCA36671199089A300520FFD /* PBXTargetDependency */,
+			);
+			name = brewTimerTests;
+			productName = brewTimerTests;
+			productReference = DCA3666F199089A300520FFD /* brewTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCA36655199089A300520FFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Filip Adamczyk";
+				TargetAttributes = {
+					DCA3665C199089A300520FFD = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					DCA3666E199089A300520FFD = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = DCA3665C199089A300520FFD;
+					};
+				};
+			};
+			buildConfigurationList = DCA36658199089A300520FFD /* Build configuration list for PBXProject "brewTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCA36654199089A300520FFD;
+			productRefGroup = DCA3665E199089A300520FFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCA3665C199089A300520FFD /* brewTimer */,
+				DCA3666E199089A300520FFD /* brewTimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCA3665B199089A300520FFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA36668199089A300520FFD /* Main.storyboard in Resources */,
+				DCA3666A199089A300520FFD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA3666D199089A300520FFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCA36659199089A300520FFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA36665199089A300520FFD /* ViewController.swift in Sources */,
+				DCA36663199089A300520FFD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA3666B199089A300520FFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA36676199089A300520FFD /* brewTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCA36671199089A300520FFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCA3665C199089A300520FFD /* brewTimer */;
+			targetProxy = DCA36670199089A300520FFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCA36666199089A300520FFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCA36667199089A300520FFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCA36677199089A300520FFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCA36678199089A300520FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCA3667A199089A300520FFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = brewTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DCA3667B199089A300520FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = brewTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DCA3667D199089A300520FFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/brewTimer.app/brewTimer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = brewTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		DCA3667E199089A300520FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/brewTimer.app/brewTimer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = brewTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCA36658199089A300520FFD /* Build configuration list for PBXProject "brewTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA36677199089A300520FFD /* Debug */,
+				DCA36678199089A300520FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCA36679199089A300520FFD /* Build configuration list for PBXNativeTarget "brewTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA3667A199089A300520FFD /* Debug */,
+				DCA3667B199089A300520FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCA3667C199089A300520FFD /* Build configuration list for PBXNativeTarget "brewTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA3667D199089A300520FFD /* Debug */,
+				DCA3667E199089A300520FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCA36655199089A300520FFD /* Project object */;
+}
